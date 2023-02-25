@@ -367,8 +367,7 @@ p {
         display: inline-block;
         width:auto;
         display: block;
-        margin: auto;
-        margin-bottom: 1.5em;
+        margin: 2em;
         width: 100%;
     }
 
@@ -820,13 +819,20 @@ p {
     #me{
         width:auto;
         display: block;
-        margin: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        margin: 1em;
+        margin-top: 0;
+        margin-left: 0;
         width: 40%;
         min-width: 200px;
         max-width: 300px;
         float: left;
         display: block;
-        padding-right: 2em;
+    }
+    img{ 
+        margin: 0;
+        padding:0;  
     }
 
     p{
@@ -1274,13 +1280,14 @@ p {
     #me{
         width:auto;
         display: block;
-        margin: auto;
+        margin: 2em;
+        margin-left: 0;
+        margin-top: 0;
         width: 40%;
         min-width: 200px;
         max-width: 300px;
         float: left;
-        display: block;
-        padding-right: 2em;
+        display: block; 
     }
 
     p{
@@ -1300,7 +1307,7 @@ hr{
     width: 60%;
     h2{
         font-size: 2em;
-        font-family: 'Arimo';
+        font-family: 'Poppins';
         font-weight: bold;
     }
     .project{
@@ -1375,6 +1382,9 @@ hr{
     }
     a:hover{
         cursor: pointer;
+    }
+    h2{
+        font-size: 2em;
     }
 }
 
