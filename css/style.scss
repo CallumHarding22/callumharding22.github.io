@@ -289,7 +289,7 @@ body{
     margin: auto;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    left: -50%;
+    left: -100%;
     position: absolute;
     z-index: -999;
     transform: skewY(-5deg);
@@ -305,7 +305,7 @@ body{
 }
 
 .animate-text {
-  animation: text-scrolling 40s linear infinite;
+  animation: text-scrolling 100s linear infinite;
   will-change: transform;
   display: block;
   position: relative;
@@ -740,7 +740,7 @@ body{
     margin-top: 2em;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    left: -50%;
+    left: -100%;
     position: absolute;
     z-index: -999;
     transform: skewY(-5deg);
@@ -756,7 +756,7 @@ body{
 }
 
 .animate-text {
-  animation: text-scrolling 55s linear infinite;
+  animation: text-scrolling 100s linear infinite;
   will-change: transform;
   display: block;
   position: relative;
@@ -1200,7 +1200,7 @@ body{
     margin-top: 2%;
     transform: translateY(-50%);
     transform: translateX(-50%);
-    left: -50%;
+    left: -100%;
     position: absolute;
     z-index: -999;
     transform: skewY(-5deg);
@@ -1223,6 +1223,7 @@ body{
   white-space: nowrap;
   
   &.left {
+
     animation-direction: reverse;
   }
   
