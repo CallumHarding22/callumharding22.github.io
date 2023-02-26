@@ -11,8 +11,7 @@ function reloadPage() {
   var plusTenSec = currentDocumentTimestamp + tenSec;
   if (now > plusTenSec) {
   location.reload();
-  console.log("lol")
-  } else {console.log("l")}
+  } else {}
   }
   reloadPage();
 const hamburger = document.getElementById('hamburger')
