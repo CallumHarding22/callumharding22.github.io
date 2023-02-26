@@ -317,8 +317,7 @@ a {
     display: inline-block;
     width: auto;
     display: block;
-    margin: auto;
-    margin-bottom: 1.5em;
+    margin: 2em;
     width: 100%;
   }
   .about-me p {
@@ -702,13 +701,20 @@ a {
   .about-me #me {
     width: auto;
     display: block;
-    margin: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin: 1em;
+    margin-top: 0;
+    margin-left: 0;
     width: 40%;
     min-width: 200px;
     max-width: 300px;
     float: left;
     display: block;
-    padding-right: 2em;
+  }
+  .about-me img {
+    margin: 0;
+    padding: 0;
   }
   .about-me p {
     font-family: "Arimo";
@@ -1090,13 +1096,14 @@ a {
   .about-me #me {
     width: auto;
     display: block;
-    margin: auto;
+    margin: 2em;
+    margin-left: 0;
+    margin-top: 0;
     width: 40%;
     min-width: 200px;
     max-width: 300px;
     float: left;
     display: block;
-    padding-right: 2em;
   }
   .about-me p {
     font-family: "Arimo";
@@ -1112,7 +1119,7 @@ a {
   }
   .my-work h2 {
     font-size: 2em;
-    font-family: "Arimo";
+    font-family: "Poppins";
     font-weight: bold;
   }
   .my-work .project {
@@ -1181,6 +1188,9 @@ a {
   }
   .contact-me a:hover {
     cursor: pointer;
+  }
+  .contact-me h2 {
+    font-size: 2em;
   }
   hr {
     margin: 2em 1em;
